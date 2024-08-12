@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <h1>Regestration Form</h1>
+        <form name="RegForm" onsubmit="return validateForm()">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name">
+                <span id="name-error" class="error-msg"></span>
+            </div>
+            <div>
+                <label for="address">Address:</label>
+                <input type="text" name="address" id="address">
+                <span id="address-error" class="error-msg"></span>
+            </div>
+            <div>
+                <label for="degree">Degree:</label>
+                <select type="text" name="degree" id="degree">
+                    <option value="">Select Course</option>
+                    <option value="BCA">BCA</option>
+                    <option value="B Tech">B Tech</option>
+                    <option value="B Com">B Com</option>
+                    <option value="B pharm">B pharm</option>
+                    <option value="BBA">BBA</option>
+                </select>
+                <span id="degree-error" class="error-msg"></span>
+            </div>
+            <div>
+                <label for="age">Age:</label>
+                <input type="text" name="age" id="age">
+                <span id="age-error" class="error-msg"></span>
+            </div>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password">
+                <span id="password-error" class="error-msg"></span>
+            </div>
+            <div>
+                <label for="cpassword">Conform password:</label>
+                <input type="password" name="cpassword" id="cpassword">
+                <span id="cpassword-error" class="error-msg"></span>
+            </div>
+            <div>
+                <label for="collage">Collage Name:</label>
+                <textarea name="collage" id="collage"></textarea>
+            </div>
+            <div>
+                <input type="checkbox" name="agree" id="agree">
+                <label for="agree">I agree the conditions</label>
+                <span id="agree-error" class="error-msg"></span>
+            </div>
+            <div>
+               <input type="submit" name="submit" id="submit">
+               <input type="reset" name="reset" id="reset">
+            </div>
+        </form>
+    <script src="index.js"></script>
+</body>
+</html>
