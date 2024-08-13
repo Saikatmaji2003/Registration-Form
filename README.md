@@ -1,2 +1,2 @@
 # Registration-Form
-A basic registration form using HTML-CSS-JS
+A basic registration form build using HTML,CSSand JavaScript.Which also check the inputs are valid or not.  
